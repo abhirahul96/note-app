@@ -1,0 +1,24 @@
+{
+  "name": "note-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhirahul96/note-app.git"
+  },
+  "author": "Nayak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhirahul96/note-app/issues"
+  },
+  "homepage": "https://github.com/abhirahul96/note-app#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "validator": "^13.1.1",
+    "yargs": "^15.4.1"
+  }
+}
