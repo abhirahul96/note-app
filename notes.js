@@ -52,7 +52,7 @@ const readNote = (title) => {
     const notes=loadNotes()
     const searchNote=notes.find((note)=>note.title===title)
     if(searchNote){
-        console.log(chalk.green(searchNote.title)+"=>"+searchNote.body)
+        console.log(chalk.green.inverse(searchNote.title)+"=>"+searchNote.body)
         // console.log(searchNote.body)
     }
     else{
